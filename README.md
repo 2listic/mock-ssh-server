@@ -45,8 +45,6 @@ To connect to the running container using an SSH client, use the following comma
 ssh root@localhost -p 2222
 ```
 
-The password for the `root` user is `root`, as set in the Dockerfile.
-
 ## Configuration Details
 
 Here are some details about what's configured in this Dockerfile:
