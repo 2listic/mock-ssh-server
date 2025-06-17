@@ -16,6 +16,7 @@ This is a mocked SSH server built using Ubuntu 22.04 with OpenSSH installed. It'
 ## Prerequisites
 
 - Docker installed on your machine
+- Copy your public key in the same directory as the Dockerfile and change the Dockerfile accordingly to the type of key you have (i.e. id_rsa.pub).
 
 ## Getting Started
 
