@@ -1,2 +1,5 @@
 # public keys
 *.pub
+
+# continue extension
+.continue
