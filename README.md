@@ -24,7 +24,11 @@ This is a mocked SSH server built using Ubuntu 22.04 with OpenSSH installed. It'
 To build the Docker image, navigate to the directory containing this README and run:
 
 ```bash
-docker build -t mock-ssh-server .
+docker build --secret id=ssh-key,src=<path-to-your-public-key> -t mock-ssh-server .
+```
+For example:  
+```bash
+docker build --secret id=ssh-key,src=/home/pcolt/.ssh/id_rsa.pub -t mock-ssh-server .
 ```
 
 ### Running the Container
